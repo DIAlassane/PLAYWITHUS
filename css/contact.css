@@ -128,6 +128,10 @@ h1 {
     padding: 0.5rem;
 }
 
+.regle {
+    display: none;
+  }
+
 /* --------------------------- -------------------------------------- ------------------------------ ------- */
 
 footer {
@@ -137,4 +141,69 @@ footer {
     justify-content: center;
     text-align: center;
     margin-top: 3rem;
+  }
+
+  @media screen and (max-width: 995px) {
+
+    nav {
+      display: none;
+    }
+
+    .accordion {
+      display: block;
+      width: 100%;
+      height: 6vh;
+    }
+
+    .regle {
+      display: block;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .panel p a {
+      color: white;
+    }
+
+    main {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+    }
+
+    .glob {
+        display: block;
+        width: 100%;
+    }
+
+    .glob2 {
+        display: block;
+    }
+
+    .un {
+        width: 100%;
+        height: 0;
+    }
+
+    .deux {
+        display: none;
+    }
+
+    .un2 {
+        display: none;
+    }
+
+    .deux2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .deux2 a {
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+    
   }
