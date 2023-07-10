@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <link rel="stylesheet" href="/css/snake.css">
+
+</head>
+
+<body>
+
+    <div id="preloadeer"></div>
+
+    <header>
+        <a href="#"><img src="/img/dice-fire.png" alt=""></a>
+        <nav>
+            <a href="#">Contact</a>
+            <a href="/html/index.html">Dice</a>
+            <a href="/acceuil.html">Acceuil</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1 class="overlap overlap-front">Snake</h1>
+
+        <div class="body">
+
+            <div class="scr"></div>
+            <div class="scr1">
+                <p id="p1">SCORE:</p>
+                <p id="p2">HIGHSCORE:</p>
+            </div>
+            <div class="scr2">
+                <p id="score"></p>
+                <p id="high"></p>
+            </div>
+            <button id="btn_stop" >Stop<span> Snake Game</span></button>
+            <p id="end_msg"></p>
+            <canvas width="400" height="400" id="game"></canvas>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Copy-right@DIAZEL </h3>
+    </footer>
+
+<script src="/js/snake.js"></script>
+</body>
+</html>
