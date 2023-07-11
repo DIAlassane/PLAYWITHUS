@@ -518,6 +518,10 @@ nav a {
     .panel p a {
       color: white;
     }
+
+    .regle1 {
+      display: none;
+    }
     
   }
 
